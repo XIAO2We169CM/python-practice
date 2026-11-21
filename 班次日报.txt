@@ -1,0 +1,2 @@
+整体不良率1.63 %
+预警班次 [{'line': 'A线', 'output': 1200, 'ng': 30}, {'line': 'B线', 'output': 1500, 'ng': 31}, {'line': 'C线', 'output': 2000, 'ng': 10}, {'line': 'D线', 'output': 800, 'ng': 20}, {'line': 'E线', 'output': 1000, 'ng': 15}]
