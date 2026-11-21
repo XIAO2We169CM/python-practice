@@ -26,3 +26,8 @@ print("最差产线", p["产线"].tolist()[0])
 
 g.to_excel("11月16日 班次汇总.xlsx", index=False)
 print("已导出", len(g), "个班次")
+
+with pd.ExcelWriter("11月16日 班次产线汇总.xlsx") as w:
+    g.to_excel(w, sheet_name="按班次", index=False)
+    p.to_excel(w, sheet_name="按产线", index=False)
+print("已导出 2 个工作表")
