@@ -7,3 +7,5 @@
 - Day20–Day21：小项目 产线良率统计、包装车间日报
 - Day22–Day23：pandas 读表、筛选、分组汇总、导出 Excel
 - Day25：设备稼动率（MES 常见指标）
+- Day26：小项目 自动 Excel 周报（CSV → 3 个工作表）
+- Day27：推送到 GitHub
