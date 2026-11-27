@@ -19,5 +19,5 @@ while True:
     data = r.json()
     a = data["choices"][0]["message"]["content"]
     print("AI：", a)
-   # messages.append({"role": "assistant", "content": a})
+    messages.append({"role": "assistant", "content": a})
     print("（这次输入", data["usage"]["prompt_tokens"], "token，messages 现在", len(messages), "条）")
